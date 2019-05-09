@@ -1,0 +1,22 @@
+@media screen and (min-width:290px) and (max-width:599.99999px){
+	#my-picture{
+		max-width: 25%;
+		max-height: 25%;
+	}
+	article[class*="grid"]{
+		border: solid 1px grey;
+		box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+	}
+	#nav>a{
+		display: none;
+	}
+	#dropdown{
+	position: absolute;
+	top: 25px;
+	padding:2px;
+	margin: 0px auto;
+	border:solid 1px lightblue;
+	background: lightblue;
+	width: 40%;
+	}
+}

@@ -1,0 +1,27 @@
+@import "extra-small.css";
+
+@media screen and (min-width:600px) and (max-width:767.99999px){
+  #my-picture{
+  	max-width: 23%;
+  	max-height: 23%;
+  }
+  h2{
+		text-shadow: 1px 1px 1px grey;
+	}
+	article[class*="grid"]{
+		border: solid 1px grey;
+		box-shadow: 0.6px 0.6px 0.6px 0.6px grey;
+	}
+	#nav>a{
+		display: none;
+	}
+	#dropdown{
+	position: absolute;
+	top: 25px;
+	padding:2px;
+	margin: 0px auto;
+	border:solid 1px lightblue;
+	background: lightblue;
+	width: 40%;
+	}
+}

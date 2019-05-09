@@ -1,0 +1,23 @@
+@media screen and (min-width:1200px){
+    #my-picture{
+        max-width: 19%;
+        max-height: 19%;
+      }
+      h2{
+          text-shadow: 3px 2px 5px grey;
+      }
+      article[class*="grid"]{
+          border: solid 1px grey;
+          box-shadow: 0.9px 0.9px 0.9px 0.9px grey;
+      }
+      #menu{
+                display: none;
+            }
+      #dropdown>a,ul#dropdown{
+        display: none;
+      }
+      .prop:not(:last-child){
+          border-right: solid 1px white;
+      }
+
+}
