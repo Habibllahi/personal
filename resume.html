@@ -27,25 +27,28 @@
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Resume Stylesheet -->
+    <link rel="stylesheet" href="css/resume.css" />
   </head>
   <body>
+    <header>
+      <section class="nav-brand">
+        <h1>H. A. Hamzat</h1>
+        <p>&#9776;</p>
+      </section>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
     <main>
-      <header>
-        <section class="nav-brand">
-          <h1>H. A. Hamzat</h1>
-          <p>=</p>
-        </section>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="resume.html">Resume</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </header>
-      <h1>Resume</h1>
       <!-- Career Objective -->
-      <section>
-        <h4>Career Objective</h4>
+      <section class="cv-panel">
+        <h4 class="panel-title">Career Objective</h4>
         <p>
           To become a successful electrical engineer with tons of professional
           experience in solar renewable energy design, development and
@@ -55,16 +58,15 @@
           energy sector for control, management and remote monitoring.
         </p>
       </section>
+      <!-- Career Objective End -->
+
       <!-- Work Experience -->
-      <section>
-        <h4>Work Experience</h4>
+      <section class="cv-panel">
+        <h4 class="panel-title">Work Experience</h4>
         <!-- Rubitec -->
-        <article>
-          <div>
-            <h4>Rubitec Nigeria Limited, Lagos state</h4>
-            2019 - Present
-          </div>
-          <p>Role: Utility Manager</p>
+        <article class="exp-body">
+          <h4>Rubitec Nigeria Limited, Lagos State ( 2019 - Present )</h4>
+          <p><strong>Role:</strong> Utility Manager</p>
           <p><strong>Responsibilities:</strong></p>
           <ul>
             <li>
@@ -84,11 +86,8 @@
         </article>
 
         <!-- Freelancing -->
-        <article>
-          <div>
-            <h4>Freelancing</h4>
-            2018 - 2019
-          </div>
+        <article class="exp-body">
+          <h4>Freelancing ( 2018 - 2019 )</h4>
           <p>Role: Software Developer</p>
           <p><strong>Responsibilities:</strong></p>
           <ul>
@@ -100,11 +99,8 @@
         </article>
 
         <!-- Embedded System Developer -->
-        <article>
-          <div>
-            <h4>HIC mikroLAB, Ogun state</h4>
-            2017 - 2018
-          </div>
+        <article class="exp-body">
+          <h4>HIC mikroLAB, Ogun state ( 2017 - 2018 )</h4>
           <p>Role: Embedded System Developer</p>
           <p><strong>Responsibilities:</strong></p>
           <ul>
@@ -121,11 +117,8 @@
         </article>
 
         <!-- IT -->
-        <article>
-          <div>
-            <h4>HIC mikroLAB, Ogun state</h4>
-            2014 - 2015
-          </div>
+        <article class="exp-body">
+          <h4>HIC mikroLAB, Ogun state ( 2014 - 2015 )</h4>
           <p>Role: Industrial Attachment Trainee</p>
           <p><strong>Responsibilities:</strong></p>
           <ul>
@@ -138,11 +131,11 @@
           </ul>
         </article>
       </section>
-      <!-- Work Experience Ends -->
+      <!-- Work Experience End -->
 
       <!-- Key Skills -->
-      <section>
-        <h4>Key Skills</h4>
+      <section class="cv-panel">
+        <h4 class="panel-title">Key Skills</h4>
         <ul>
           <li>Mini grid management</li>
           <li>Electrical installation (conduit and surface)</li>
@@ -178,10 +171,11 @@
           </li>
         </ul>
       </section>
+      <!-- Key Skills End -->
 
       <!-- Education -->
-      <section>
-        <h4>Education</h4>
+      <section class="cv-panel">
+        <h4 class="panel-title">Education</h4>
         <ul>
           <!-- Degree & Year -->
           <li>
@@ -192,8 +186,10 @@
           <p>Federal University of Agriculture Abeokuta, Ogun State</p>
         </ul>
       </section>
+      <!-- Education End -->
+
       <!-- CV download link -->
-      <aside>
+      <aside class="cv-download">
         <a href="">Download CV</a>
       </aside>
     </main>
@@ -204,7 +200,7 @@
         <a href="https://bitlylink.com/habibllahi">Hamzat Habibllahi Adewale</a>
       </p>
       <!-- Social Media -->
-      <aside>
+      <aside class="social-media">
         <a href="" class="fa fa-envelope"></a>
         <a href="" class="fa fa-facebook"></a>
         <a href="" class="fa fa-twitter"></a>
