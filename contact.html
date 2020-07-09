@@ -26,48 +26,57 @@
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Contact Stylesheet -->
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
+    <header>
+      <section class="nav-brand">
+        <h1>H. A. Hamzat</h1>
+        <p>=</p>
+      </section>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
     <main>
-      <header>
-        <section class="nav-brand">
-          <h1>H. A. Hamzat</h1>
-          <p>=</p>
-        </section>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="resume.html">Resume</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </header>
-      <h1>Get In Touch</h1>
-
-      <section>
+      <section class="contact-details">
+        <h2 class="section-title">Contact Details</h2>
         <!-- Contact Tagline -->
         <p>
           You can always reach out to me to discuss business, hire me or say a
           warm friendly hello
         </p>
         <!-- Phone -->
-        <p><span class="fa fa-phone"></span> +2348142408496</p>
+        <p class="contact-item">
+          <span class="fa fa-phone"></span> +2348142408496
+        </p>
         <!-- Email -->
-        <p><span class="fa fa-envelope"></span> habibllahi3@gmail.com</p>
+        <p class="contact-item">
+          <span class="fa fa-envelope"></span> habibllahi3@gmail.com
+        </p>
         <!-- Address -->
-        <p>
+        <p class="contact-item">
           <span class="fa fa-home"></span> Plot 6/8 Araromi Igbehinadun
           Community, Road 1, Ajofeebo, Sanyo Area, Ibadan, Oyo State, Nigeria
         </p>
       </section>
 
       <!-- Get in touch -->
-      <section>
+      <section class="contact-form">
+        <h2 class="section-title">Get in touch</h2>
         <form action="">
           <label for="sender">Your Name</label>
           <input
             type="text"
             name="sender"
             id="sender"
+            class="form-control"
             placeholder="Yinka Enoch Adedokun"
           />
           <label for="email">Your Email</label>
@@ -75,21 +84,27 @@
             type="email"
             name="email"
             id="email"
+            class="form-control"
             placeholder="adedokunyinkaenoch@gmail.com"
           />
           <label for="message">Write a message</label>
           <textarea
             name="message"
             id="message"
+            class="form-control"
             cols="30"
             rows="10"
             placeholder="What would you like to discuss?"
           ></textarea>
 
-          <p><button type="submit">Send Message</button></p>
+          <p class="form-action">
+            <button type="submit" id="form-btn">Send Message</button>
+          </p>
         </form>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer>
       <!-- Copyright -->
       <p>
@@ -97,11 +112,39 @@
         <a href="https://bitlylink.com/habibllahi">Hamzat Habibllahi Adewale</a>
       </p>
       <!-- Social Media -->
-      <aside>
-        <a href="" class="fa fa-envelope"></a>
-        <a href="" class="fa fa-facebook"></a>
-        <a href="" class="fa fa-twitter"></a>
-        <a href="" class="fa fa-linkedin"></a>
+      <aside class="social-media">
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-envelope"></span>
+        </a>
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-facebook"></span>
+        </a>
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-twitter"></span>
+        </a>
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-linkedin"></span>
+        </a>
       </aside>
     </footer>
 

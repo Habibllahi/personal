@@ -73,16 +73,27 @@ footer {
   margin-top: 1rem;
 }
 
-.social-media a {
+.social-item {
   display: inline-block;
-  padding: 1rem;
-  margin: auto 1rem;
-  border: 1px solid #000;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem 1rem;
+  /* border: 1px solid #000; */
   border-radius: 50%;
+  position: relative;
+  background: var(--light-dark);
 }
-.social-media a:hover,
-.social-media a:focus {
-  text-decoration: none;
+
+.social-item:hover,
+.social-item:focus {
   background: #000;
+}
+
+.social-item span {
   color: #b2c251;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
