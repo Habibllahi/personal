@@ -30,37 +30,265 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Portfolio Stylesheet -->
+    <link rel="stylesheet" href="css/portfolio.css" />
   </head>
   <body>
+    <header>
+      <section class="nav-brand">
+        <h1>H. A. Hamzat</h1>
+        <p>=</p>
+      </section>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
     <main>
-      <header>
-        <section class="nav-brand">
-          <h1>H. A. Hamzat</h1>
-          <p>=</p>
-        </section>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="resume.html">Resume</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </header>
-      <h1>Portfolio</h1>
-
       <!-- RelayFX Desktop Application -->
-      <section>
+      <section class="project-body">
         <!-- Project Image -->
-        <div></div>
-        <div>
+        <div class="project-image">
+          <img src="image/relay_app.jpg" alt="RelayFX Desktop Application" />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
           <!-- Project Title -->
-          <h4>RelayFX Desktop Application</h4>
+          <h4 class="project-title">RelayFX Desktop Application</h4>
+
           <!-- Project Description -->
-          <p></p>
+          <p class="project-desc">
+            This application back-end is written in Java and its front-end is
+            written in FXML using the JavaFX technology. It is a control
+            solution designed to control target device remotely via a bluetooth
+            or zigbee serial transreceiver module connected to the operational
+            desktop computer via USB. The target device shall have an embedded
+            board as an intermediary between its transreceiver and the device
+            control switch board. If your embedded board is an arduino, You can
+            as well download the arduino code for this project here. You are
+            free to download this code, study and edit to suit you. The
+            operational PC must run JRE 1.8 or above.
+          </p>
+
           <!-- Project Download Link -->
-          <a href="">Download</a>
+          <a href="download/relay_fx.zip" download>
+            Download
+          </a>
+        </div>
+      </section>
+
+      <!-- Arduino Code for RelayFX App -->
+      <section class="project-body">
+        <!-- Project Image -->
+        <div class="project-image">
+          <img
+            src="image/arduino-logo.jpeg"
+            alt="Arduino Code for RelayFX App"
+          />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
+          <!-- Project Title -->
+          <h4 class="project-title">Arduino Code for RelayFX App</h4>
+
+          <!-- Project Description -->
+          <p class="project-desc">
+            This code is written in C++. It is an embedded code for arduino
+            board, The code is designed to receive predefined instruction from
+            the RelayFX App via the operational PC transreceiever and also to
+            log feedback to the RelayFX App via the target device transreceiver.
+            You are free to download this code, study and edit to suit you.
+          </p>
+
+          <!-- Project Download Link -->
+          <a href="download/relay_fx_app_arduino_code.zip" download>
+            Download
+          </a>
+        </div>
+      </section>
+
+      <!-- Fingerprint Attendance App -->
+      <section class="project-body">
+        <!-- Project Image -->
+        <div class="project-image">
+          <img src="image/fingerprint.jpg" alt="Fingerprint Attendance App" />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
+          <!-- Project Title -->
+          <h4 class="project-title">Fingerprint Attendance App</h4>
+
+          <!-- Project Description -->
+          <p class="project-desc">
+            This application is written in Java using the swing technology. It
+            is developed to basically solve proxy attendance taking in any
+            institution. The application is designed to use only digital
+            personna USB fingerprint hardware. The application uses JDBC to
+            interract with localhost MySQL database to store enrolled candidates
+            data. You as an administrator can enroll two fingers for each
+            candidate, such candidate can use either of the finger to take
+            his/her attendance for the day. It tabulate the attendance for that
+            day upon query. You are free to download this code, study and edit
+            to suit you. The default username and password is
+            <strong>gateway</strong>.
+          </p>
+
+          <!-- Project Download Link -->
+          <a href="download/fingerprint_attendance_app.zip" download>
+            Download
+          </a>
+        </div>
+      </section>
+
+      <!-- Arduino code for automatic water pump system -->
+      <section class="project-body">
+        <!-- Project Image -->
+        <div class="project-image">
+          <img
+            src="image/arduino-logo.jpeg"
+            alt="Arduino code for automatic water pump system"
+          />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
+          <!-- Project Title -->
+          <h4 class="project-title">
+            Arduino code for automatic water pump system
+          </h4>
+
+          <!-- Project Description -->
+          <p class="project-desc">
+            This code is written in C++. It is an embedded program designed to
+            automatically monitor liquid level in a tank and then smartly
+            decides if to off the running pump or start the pump. The program is
+            compactible with AVR microcontrollers. The microcontroller running
+            this program controls the hardware that controls the pump. Real time
+            monitoring result is displayed on Liquid crystal Display (LCD). You
+            are free to download this code, study and edit to suit you.
+          </p>
+
+          <!-- Project Download Link -->
+          <a href="download/automatic_water_pump.zip" download>
+            Download
+          </a>
+        </div>
+      </section>
+
+      <!-- Arduino code for college bell system -->
+      <section class="project-body">
+        <!-- Project Image -->
+        <div class="project-image">
+          <img
+            src="image/arduino-logo.jpeg"
+            alt="Arduino code for college bell system"
+          />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
+          <!-- Project Title -->
+          <h4 class="project-title">Arduino code for college bell system</h4>
+
+          <!-- Project Description -->
+          <p class="project-desc">
+            This code is written in C++. It is an embedded program designed to
+            automatically monitor the calender of a typical school using the
+            Real Time Clock (RTC) module DS1307, it automatically sounds an
+            alarm to signify the end of every class period. It is smart enough
+            to recognize saturday and sunday as weekend, hence does not sound
+            alarm for weekends and friday alarm is quite different as per the
+            schooling system in south-west region of Nigeria. Real time
+            monitoring result is displayed on Liquid crystal Display (LCD). The
+            program is compactible with AVR microcontrollers. The
+            microcontroller running this program controls the hardware that
+            controls the alarm sound system. You are free to download this code,
+            study and edit to suit you.
+          </p>
+
+          <!-- Project Download Link -->
+          <a href="download/college_bell.zip" download>
+            Download
+          </a>
+        </div>
+      </section>
+
+      <!-- Arduino code for garden irrigation system -->
+      <section class="project-body">
+        <!-- Project Image -->
+        <div class="project-image">
+          <img
+            src="image/arduino-logo.jpeg"
+            alt="Arduino code for garden irrigation system"
+          />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
+          <!-- Project Title -->
+          <h4 class="project-title">
+            Arduino code for garden irrigation system
+          </h4>
+
+          <!-- Project Description -->
+          <p class="project-desc">
+            This code is written in C++. It is a simple embedded program
+            designed to automatically monitor the moisture level of garden soil
+            and smartly decide if to water the garden or not. Monitoring result
+            is displayed on Liquid Crystal Display (LCD). The program is
+            compactible with AVR microcontrollers. The microcontroller running
+            this program controls the hardware that controls the garden pump
+            system. You are free to download this code, study and edit to suit
+            you.
+          </p>
+
+          <!-- Project Download Link -->
+          <a href="download/garden_irrigation.zip" download>
+            Download
+          </a>
+        </div>
+      </section>
+
+      <!-- Home automation using IR remote -->
+      <section class="project-body">
+        <!-- Project Image -->
+        <div class="project-image">
+          <img
+            src="image/arduino-logo.jpeg"
+            alt="Home automation using IR remote"
+          />
+        </div>
+
+        <!-- Project Panel -->
+        <div class="project-panel">
+          <!-- Project Title -->
+          <h4 class="project-title">Home automation using IR remote</h4>
+
+          <!-- Project Description -->
+          <p class="project-desc">
+            This code is written in C++. It is an embedded program designed to
+            control the switching of the home appliances by the home user using
+            Infrared remote control. The program is compactible with AVR
+            microcontrollers. The microcontroller running this program receives
+            signals from the IR receiver connected to it, analyse the signal and
+            use the result to decide which appliance it's to ON or OFF, it
+            simply ignore any signal that is not predefined in the program. You
+            are free to download this code, study and edit to suit you.
+          </p>
+
+          <!-- Project Download Link -->
+          <a href="download/home_automation_using_ir_remote.zip" download>
+            Download
+          </a>
         </div>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer>
       <!-- Copyright -->
       <p>
@@ -68,11 +296,39 @@
         <a href="https://bitlylink.com/habibllahi">Hamzat Habibllahi Adewale</a>
       </p>
       <!-- Social Media -->
-      <aside>
-        <a href="" class="fa fa-envelope"></a>
-        <a href="" class="fa fa-facebook"></a>
-        <a href="" class="fa fa-twitter"></a>
-        <a href="" class="fa fa-linkedin"></a>
+      <aside class="social-media">
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-envelope"></span>
+        </a>
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-facebook"></span>
+        </a>
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-twitter"></span>
+        </a>
+        <a
+          href=""
+          class="social-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="fa fa-linkedin"></span>
+        </a>
       </aside>
     </footer>
 
