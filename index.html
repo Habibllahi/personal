@@ -27,92 +27,278 @@
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Portfolio Stylesheet -->
+    <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
-    <main>
-      <header>
-        <section class="nav-brand">
-          <h1>H. A. Hamzat</h1>
-          <p>=</p>
-        </section>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="resume.html">Resume</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </header>
-      <!-- Banner -->
-      <section>
-        <h2>Hello I'm</h2>
-        <h1>Hamzat Habibllahi Adewale</h1>
-        <p>I build amazing things</p>
+    <header>
+      <section class="nav-brand">
+        <h1>H. A. Hamzat</h1>
+        <p>=</p>
       </section>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="overlay"></div>
+        <article class="banner-text">
+          <h2 class="banner-subtext">Hello I'm</h2>
+          <h1 class="banner-name">Hamzat Habibllahi Adewale</h1>
+          <p class="banner-tagline">- I build amazing things -</p>
+        </article>
+      </section>
+
+      <!-- Career Objective -->
+      <section class="career-panel">
+        <span class="fa fa-quote-left"></span>
+        <p class="career-obj">
+          To become a successful electrical engineer with tons of professional
+          experience in solar renewable energy design, development and
+          management. With add on professional skills in development of
+          full-stack native android mobile application, cross-platform desktop
+          application and IoT based embedded solutions applicable in renewable
+          energy sector for control, management and remote monitoring.
+        </p>
+      </section>
+
       <!-- About Me -->
-      <section>
+      <section class="about-panel">
         <!-- Image -->
-        <section></section>
-        <section>
-          <p>About <strong>Me</strong></p>
+        <section class="about-image-panel">
+          <img
+            src="image/profile-picture.jpg"
+            alt="Hamzat Habibllahi Adewale"
+          />
+        </section>
+
+        <section class="about-me-text">
+          <p class="section-title">About <strong>Me</strong></p>
           <!-- First Paragraph -->
-          <p>
+          <p class="pg-one">
             Electrical/Software engineer with expertise in in solar renewable
             energy design, development and management.
           </p>
           <!-- Second paragraph -->
-          <p>
-            Currently, I work as Utilities Manager at Rubitec Utilities. When am
-            off duties, I love to freelance on REST microservices development,
-            native Android application development, desktop application
-            development and embedded development. I have my first degree in
-            Electrical and Electronics Engineering(EEE). For relaxation, I love
-            watching movies and playing video games.
+          <p class="pg-two">
+            I love to freelance on REST microservices development, native
+            Android application development, desktop application development and
+            embedded development. I have my first degree in Electrical and
+            Electronics Engineering(EEE). For relaxation, I love watching movies
+            and playing video games.
           </p>
-          <!-- About Me CTA -->
-          <aside>
-            <button>Hire Me</button>
-            <button>Download CV</button>
-          </aside>
         </section>
       </section>
-      <!-- What I can do -->
-      <section>
-        <p>What I <strong>do</strong></p>
-        <div>
+
+      <!-- What I do -->
+      <section class="wid-panel">
+        <p class="section-title">What I <strong>do</strong></p>
+
+        <div class="wid-body">
           <!-- Renewable Energy -->
+          <article class="wid-item">
+            <span class="wid-icon"> <i class="fa fa-globe"></i> </span>
+            <h4 class="wid-title">Renewable Energy</h4>
+            <p class="wid-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sed, porro quibusdam et quis minus minima distinctio labore modi?
+              Consequuntur saepe, quia minus accusantium corporis, libero
+              provident tenetur iste eius beatae suscipit nostrum ea, sequi eos
+              excepturi molestiae exercitationem veritatis reprehenderit soluta
+              magnam non? Veritatis quasi molestias veniam hic non.
+            </p>
+          </article>
+
           <!-- Embedded Systems -->
+          <article class="wid-item">
+            <span class="wid-icon"> <i class="fa fa-cogs"></i> </span>
+            <h4 class="wid-title">Embedded Systems</h4>
+            <p class="wid-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sed, porro quibusdam et quis minus minima distinctio labore modi?
+              Consequuntur saepe, quia minus accusantium corporis, libero
+              provident tenetur iste eius beatae suscipit nostrum ea, sequi eos
+              excepturi molestiae exercitationem veritatis reprehenderit soluta
+              magnam non? Veritatis quasi molestias veniam hic non.
+            </p>
+          </article>
+
           <!-- Software Development -->
+          <article class="wid-item">
+            <span class="wid-icon"><i class="fa fa-laptop"></i></span>
+            <h4 class="wid-title">Software Development</h4>
+            <p class="wid-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sed, porro quibusdam et quis minus minima distinctio labore modi?
+              Consequuntur saepe, quia minus accusantium corporis, libero
+              provident tenetur iste eius beatae suscipit nostrum ea, sequi eos
+              excepturi molestiae exercitationem veritatis reprehenderit soluta
+              magnam non? Veritatis quasi molestias veniam hic non.
+            </p>
+          </article>
         </div>
       </section>
+
       <!-- Skill Set -->
-      <section>
-        <p>Skill <strong>Set</strong></p>
+      <section class="skill-panel">
+        <p class="section-title">Skill <strong>Set</strong></p>
+        <div class="skill-body">
+          <!-- Java -->
+          <div class="skill-item">
+            <p class="skill-name">JAVA</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 70%;"></div>
+            </div>
+          </div>
+          <!-- C++ -->
+          <div class="skill-item">
+            <p class="skill-name">C++</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 60%;"></div>
+            </div>
+          </div>
+          <!-- HTML5 -->
+          <div class="skill-item">
+            <p class="skill-name">HTML5</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 80%;"></div>
+            </div>
+          </div>
+          <!-- CSS3 -->
+          <div class="skill-item">
+            <p class="skill-name">CSS3</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 70%;"></div>
+            </div>
+          </div>
+          <!-- JavaScript -->
+          <div class="skill-item">
+            <p class="skill-name">JavaScript</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 50%;"></div>
+            </div>
+          </div>
+        </div>
       </section>
+
       <!-- Featured Portfolio -->
-      <section>
-        <p>Featured <strong>Portfolio</strong></p>
+      <section class="portfolio-panel">
+        <p class="section-title">Featured <strong>Portfolio</strong></p>
         <!-- Projects Container -->
-        <section></section>
+        <section class="portfolio-body">
+          <!-- Project 1 -->
+          <div class="portfolio-item">
+            <div class="portfolio-image">
+              <img
+                src="image/relay_app.jpg"
+                alt="RelayFX Desktop Application"
+              />
+            </div>
+            <div class="portfolio-desc">
+              <h4 class="project-title">RelayFX Desktop Application</h4>
+              This application back-end is written in Java and its front-end is
+              written in FXML using the JavaFX technology. It is a control
+              solution designed to control target device remotely via a
+              bluetooth or zigbee serial transreceiver module connected to the
+              operational desktop computer via USB.
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio-item">
+            <div class="portfolio-image">
+              <img
+                src="image/fingerprint.jpg"
+                alt="Fingerprint Attendance App"
+              />
+            </div>
+            <div class="portfolio-desc">
+              <h4 class="project-title">Fingerprint Attendance App</h4>
+              This application is written in Java using the swing technology. It
+              is developed to basically solve proxy attendance taking in any
+              institution. The application is designed to use only digital
+              personna USB fingerprint hardware.
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio-item">
+            <div class="portfolio-image">
+              <img
+                src="image/arduino-logo.jpeg"
+                alt="Arduino code for automatic water pump system"
+              />
+            </div>
+            <div class="portfolio-desc">
+              <h4 class="project-title">
+                Arduino code for automatic water pump system
+              </h4>
+              This code is written in C++. It is an embedded program designed to
+              automatically monitor liquid level in a tank and then smartly
+              decides if to off the running pump or start the pump. The program
+              is compactible with AVR microcontrollers.
+            </div>
+          </div>
+        </section>
         <!-- Portfolio CTA -->
-        <p><a href="">View more</a></p>
+        <p class="portfolio-cta"><a href="portfolio.html">View more</a></p>
       </section>
       <!-- Contact  -->
       <section></section>
+
+      <!-- Footer -->
+      <footer>
+        <!-- Copyright -->
+        <p>
+          Copyright &copy; <span id="copyright-year"></span>
+          <a href="https://bitlylink.com/habibllahi"
+            >Hamzat Habibllahi Adewale</a
+          >
+        </p>
+        <!-- Social Media -->
+        <aside class="social-media">
+          <a
+            href=""
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-envelope"></span>
+          </a>
+          <a
+            href=""
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a
+            href=""
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-twitter"></span>
+          </a>
+          <a
+            href=""
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-linkedin"></span>
+          </a>
+        </aside>
+      </footer>
     </main>
-    <footer>
-      <!-- Copyright -->
-      <p>
-        Copyright &copy; <span id="copyright-year"></span>
-        <a href="https://bitlylink.com/habibllahi">Hamzat Habibllahi Adewale</a>
-      </p>
-      <!-- Social Media -->
-      <aside>
-        <a href="" class="fa fa-envelope"></a>
-        <a href="" class="fa fa-facebook"></a>
-        <a href="" class="fa fa-twitter"></a>
-        <a href="" class="fa fa-linkedin"></a>
-      </aside>
-    </footer>
 
     <!-- Scripts -->
     <script src="js/index.js"></script>
