@@ -1,13 +1,10 @@
 main {
-  margin-top: 3rem;
+  margin-top: 5rem;
   padding: 1rem;
 }
 
 .project-body {
   margin: 1rem auto;
-}
-
-.project-body:nth-child(even) {
 }
 
 .project-image {
@@ -51,7 +48,4 @@ img {
   color: var(--primary);
   text-transform: capitalize;
   margin-bottom: 0.5rem;
-}
-
-.project-desc {
 }

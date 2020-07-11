@@ -35,14 +35,59 @@
   <body>
     <header>
       <section class="nav-brand">
-        <h1>H. A. Hamzat</h1>
-        <p>=</p>
+        <h1><a href="index.html">H. A. Hamzat</a></h1>
+        <p id="nav-hamburger">&#9776;</p>
       </section>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+      <!-- Primary Nav: Large Screen -->
+      <nav id="primary-nav">
+        <ul class="nav-body">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Secondary Nav: Mobile Phone -->
+      <nav class="secondary-nav">
+        <p id="nav-times">&#10005;</p>
+        <!-- Image -->
+        <section class="nav-image">
+          <img
+            src="image/profile-picture.jpg"
+            alt="Hamzat Habibllahi Adewale"
+          />
+        </section>
+        <ul class="nav-body-sec">
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="index.html">
+              <i class="fa fa-home"></i> Home
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="portfolio.html">
+              <i class="fa fa-briefcase"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="resume.html">
+              <i class="fa fa-file"></i> Resume
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="contact.html">
+              <i class="fa fa-phone"></i> Contact
+            </a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -164,23 +209,23 @@
               <div class="progess-bar" style="width: 60%;"></div>
             </div>
           </div>
-          <!-- HTML5 -->
+          <!-- Kotlin -->
           <div class="skill-item">
-            <p class="skill-name">HTML5</p>
+            <p class="skill-name">Kotlin</p>
             <div class="skill-progress">
-              <div class="progess-bar" style="width: 80%;"></div>
+              <div class="progess-bar" style="width: 50%;"></div>
             </div>
           </div>
-          <!-- CSS3 -->
+          <!-- FXML -->
           <div class="skill-item">
-            <p class="skill-name">CSS3</p>
+            <p class="skill-name">FXML</p>
             <div class="skill-progress">
               <div class="progess-bar" style="width: 70%;"></div>
             </div>
           </div>
-          <!-- JavaScript -->
+          <!-- MYSQL -->
           <div class="skill-item">
-            <p class="skill-name">JavaScript</p>
+            <p class="skill-name">MYSQL</p>
             <div class="skill-progress">
               <div class="progess-bar" style="width: 50%;"></div>
             </div>
@@ -250,8 +295,6 @@
         <!-- Portfolio CTA -->
         <p class="portfolio-cta"><a href="portfolio.html">View more</a></p>
       </section>
-      <!-- Contact  -->
-      <section></section>
 
       <!-- Footer -->
       <footer>

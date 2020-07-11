@@ -32,7 +32,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-size: 100%; */
+  font-size: 100%;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
@@ -48,10 +48,13 @@
 
 html,
 body {
+  max-width: 1900px;
+  margin: auto;
   height: 100%;
   overflow-x: hidden;
   background: var(--dark);
   color: var(--light);
+  position: relative;
 }
 
 /* Anchor Tags */
@@ -59,6 +62,105 @@ a {
   text-decoration: none;
   color: inherit;
   transition: all 0.2s linear;
+}
+
+/* Reset headers margin */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* -------------
+HEADER
+-------------- */
+header {
+  /* display: flex; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: var(--light-dark);
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 0 5px var(--light);
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.nav-brand h1 {
+  font-size: 1.5rem;
+}
+
+#nav-hamburger {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+#primary-nav {
+  display: none;
+}
+
+.secondary-nav {
+  position: fixed;
+  top: 0;
+  right: -1000%;
+  height: 100%;
+  width: 70%;
+  background: var(--dark);
+  transition: all 0.5s;
+}
+
+.show-sec-nav {
+  right: 0;
+}
+
+#nav-times {
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-image {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.nav-body-sec {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.nav-item-sec {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link-sec {
+  padding: 0.5rem 0.75rem;
+  display: block;
+}
+
+.nav-link-sec i {
+  margin-right: 0.5rem;
 }
 
 /* -------------
