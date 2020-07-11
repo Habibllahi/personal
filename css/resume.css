@@ -3,7 +3,7 @@ main {
   margin-top: 5rem;
 }
 
-.cv-panel {
+.panel-item {
   margin-bottom: 1rem;
 }
 
@@ -43,9 +43,22 @@ ul {
   background: var(--primary);
   color: var(--dark);
 }
-
+@media only screen and (min-width: 641px) {
+  main {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .panel-item {
+    margin-bottom: 2rem;
+  }
+}
 @media only screen and (min-width: 769px) {
   main {
     margin-top: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .panel-item {
+    margin-bottom: 3rem;
   }
 }
