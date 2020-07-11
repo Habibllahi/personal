@@ -60,8 +60,6 @@ main {
 .career-panel span {
   font-size: 3rem;
 }
-.career-obj {
-}
 
 /* -------
  ABOUT ME
@@ -78,8 +76,6 @@ main {
   margin: auto;
 }
 
-.about-me-text {
-}
 .pg-one {
   /* color: var(--light-dark); */
   color: #bcbcbc;
@@ -98,8 +94,6 @@ WHAT I DO
 .wid-panel {
   padding: 1rem;
   text-align: center;
-}
-.wid-body {
 }
 
 .wid-item {
@@ -131,8 +125,6 @@ WHAT I DO
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-.wid-text {
-}
 
 /* ----------
 SKILL SET
@@ -146,8 +138,6 @@ SKILL SET
 }
 .skill-item {
   margin: 1rem auto;
-}
-.skill-name {
 }
 .skill-progress {
   background: var(--light-dark);
@@ -202,9 +192,6 @@ FEATURED PORTFOLIO
   margin-top: 3rem;
 }
 
-.portfolio-body {
-}
-
 .portfolio-item {
   background: var(--light-dark);
   margin: 2rem auto;
@@ -251,4 +238,89 @@ FEATURED PORTFOLIO
 
 footer {
   margin-top: 3rem;
+}
+
+/* Phablets */
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+  .career-panel,
+  .about-panel,
+  .wid-panel,
+  .skill-panel,
+  .portfolio-panel,
+  footer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 769px) {
+  .banner-subtext {
+    font-size: 2rem;
+  }
+  .banner-name {
+    font-size: 3rem;
+  }
+  .banner-tagline {
+    font-size: 1.35rem;
+  }
+  .career-panel {
+    width: 60%;
+    margin: 3rem auto;
+  }
+
+  .about-panel,
+  .wid-panel,
+  .skill-panel,
+  .portfolio-panel {
+    padding: 3rem;
+  }
+
+  .about-image-panel {
+    border-radius: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .wid-body,
+  .portfolio-body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wid-item,
+  .portfolio-item {
+    flex-basis: 45%;
+    margin: 2rem auto;
+    align-self: stretch;
+  }
+
+  .skill-body {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* Desktop/Laptop */
+@media only screen and (min-width: 1025px) {
+  .career-panel {
+    width: 40%;
+  }
+
+  .about-panel {
+    display: flex;
+    align-items: center;
+  }
+  .about-image-panel {
+    margin-right: 5rem;
+  }
+
+  .wid-item,
+  .portfolio-item {
+    flex-basis: 30%;
+  }
+
+  .skill-body {
+    width: 60%;
+  }
 }
