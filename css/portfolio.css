@@ -1,23 +1,15 @@
 main {
   margin-top: 5rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .project-body {
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 .project-image {
-  max-height: 200px;
   overflow: hidden;
 }
-
-img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
-
 .project-panel {
   background: var(--light-dark);
   padding: 1rem;
@@ -50,8 +42,39 @@ img {
   margin-bottom: 0.5rem;
 }
 
+/* Phablets */
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+  main,
+  footer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  main {
+    margin-top: 6rem;
+  }
+  .project-body {
+    margin: 3rem auto;
+  }
+}
+
+/* Tablet */
 @media only screen and (min-width: 769px) {
   main {
     margin-top: 8rem;
+  }
+
+  .project-body {
+    margin: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .project-image {
+    flex-basis: 40%;
+    margin-right: 2rem;
+  }
+  .project-panel {
+    flex-basis: 60%;
+    height: 100%;
   }
 }
