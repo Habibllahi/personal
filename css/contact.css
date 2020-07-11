@@ -4,10 +4,15 @@ main {
 }
 
 .section-title {
+  font-size: 1.5rem;
   color: var(--primary);
 }
 
 .contact-details {
+  margin-bottom: 1rem;
+}
+
+.contact-tagline {
   margin-bottom: 1rem;
 }
 
@@ -69,8 +74,25 @@ label {
   box-shadow: 0 0 5px var(--primary);
 }
 
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+  main {
+    padding: 3rem;
+  }
+}
 @media only screen and (min-width: 769px) {
   main {
     margin-top: 8rem;
+    display: flex;
+  }
+  .contact-details {
+    margin-right: 5rem;
+    flex-basis: 50%;
+  }
+  .contact-form {
+    flex-basis: 50%;
+  }
+
+  .section-title {
+    font-size: 2rem;
   }
 }
