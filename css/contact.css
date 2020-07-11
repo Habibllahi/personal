@@ -68,3 +68,9 @@ label {
 #form-btn:focus {
   box-shadow: 0 0 5px var(--primary);
 }
+
+@media only screen and (min-width: 769px) {
+  main {
+    margin-top: 8rem;
+  }
+}

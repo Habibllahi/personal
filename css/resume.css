@@ -43,3 +43,9 @@ ul {
   background: var(--primary);
   color: var(--dark);
 }
+
+@media only screen and (min-width: 769px) {
+  main {
+    margin-top: 8rem;
+  }
+}
