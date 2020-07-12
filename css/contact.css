@@ -38,7 +38,7 @@ label {
   display: block;
   width: 100%;
   padding: 0.5rem 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   border: none;
   border-radius: 5px;
   color: #454545;
@@ -83,6 +83,8 @@ label {
   main {
     margin-top: 8rem;
     display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .contact-details {
     margin-right: 5rem;
