@@ -3,7 +3,7 @@ main {
   padding: 2rem;
 }
 
-.project-body {
+.project-item {
   margin: 2rem auto;
 }
 
@@ -52,7 +52,7 @@ main {
   main {
     margin-top: 6rem;
   }
-  .project-body {
+  .project-item {
     margin: 3rem auto;
   }
 }
@@ -64,17 +64,23 @@ main {
   }
 
   .project-body {
-    margin: 3rem;
+    /* flex-wrap: wrap; */
+  }
+
+  .project-item {
     display: flex;
+    /* align-items: stretch; */
     align-items: flex-start;
     justify-content: center;
+    margin: 3rem auto;
   }
   .project-image {
-    flex-basis: 40%;
+    flex-basis: 30%;
     margin-right: 2rem;
   }
+
   .project-panel {
     flex-basis: 60%;
-    height: 100%;
+    /* height: 100%; */
   }
 }
