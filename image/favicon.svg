@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="8000 12350 5001 5001">
+  <defs/>
+  <defs class="ClipPathGroup">
+    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+      <path d="M8000 12350h5001v5001H8000z"/>
+    </clipPath>
+  </defs>
+  <g class="SlideGroup">
+    <g class="Slide" clip-path="url(#a)">
+      <g class="Page">
+        <g class="com.sun.star.drawing.CustomShape">
+          <path fill="none" d="M7999 12350h5003v5002H7999z" class="BoundingBox"/>
+          <path fill="#BAC964" d="M10500 12350c1417 0 2500 1083 2500 2500s-1083 2500-2500 2500-2500-1083-2500-2500 1083-2500 2500-2500zm-2500 0zm5001 5001z"/>
+        </g>
+        <g class="com.sun.star.drawing.TextShape">
+          <path fill="none" d="M8869 12801h3263v4100H8869z" class="BoundingBox"/>
+          <text class="TextShape">
+            <tspan class="TextParagraph" font-family="Georgia, serif" font-size="3387" font-weight="400"><tspan x="9119" y="16033" class="TextPosition"><tspan fill="#343A40">H</tspan></tspan></tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

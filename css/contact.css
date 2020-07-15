@@ -1,0 +1,100 @@
+main {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.contact-details {
+  margin-bottom: 1rem;
+}
+
+.contact-tagline {
+  margin-bottom: 1rem;
+}
+
+.contact-item {
+  padding: 0.5rem 0;
+}
+
+.contact-item span {
+  margin-right: 0.25rem;
+  color: var(--primary);
+}
+
+form {
+  margin-top: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.25rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #454545;
+  transition: all 0.2s linear;
+}
+
+.form-control:focus {
+  color: #000000;
+  padding-left: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.form-action {
+  margin-top: 2rem;
+}
+
+#form-btn {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+#form-btn:hover {
+  background: var(--primary);
+  color: var(--dark);
+}
+
+#form-btn:focus {
+  box-shadow: 0 0 5px var(--primary);
+}
+
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+  main {
+    padding: 3rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  main {
+    margin-top: 8rem;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .contact-details {
+    margin-right: 5rem;
+    flex-basis: 50%;
+  }
+  .contact-form {
+    flex-basis: 50%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
