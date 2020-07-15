@@ -1,140 +1,365 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>
-		Home Page
-	</title>
-	<link rel="stylesheet" type="text/css" href="css/default.css" media="screen and (min-width:290px)">
-	<link rel="stylesheet" type="text/css" href="css/small.css">
-	<link rel="stylesheet" type="text/css" href="css/medium.css">
-	<link rel="stylesheet" type="text/css" href="css/large.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Electrical Engineer with tons of professional experience in solar renewable energy design, development and management"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/favicon.svg" />
+    <link rel="shortcut icon" type="image/png" href="image/favicon.svg" />
+    <link rel="apple-touch-icon" href="image/favicon.svg" />
+    <title>Hamzat Habibllahi Adewale - Electrical Engineer</title>
+    <!-- Stylesheets -->
+    <!-- Font Awesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Portfolio Stylesheet -->
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <header>
+      <section class="nav-brand">
+        <h1><a href="index.html">H. A. Hamzat</a></h1>
+        <p id="nav-hamburger">&#9776;</p>
+      </section>
+      <!-- Primary Nav: Large Screen -->
+      <nav id="primary-nav">
+        <ul class="nav-body-pry">
+          <li class="nav-item-pry active-link-pry">
+            <a class="nav-link-pry" href="index.html">Home</a>
+          </li>
+          <li class="nav-item-pry">
+            <a class="nav-link-pry" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item-pry">
+            <a class="nav-link-pry" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item-pry">
+            <a class="nav-link-pry" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-	<meta name="viewport" content="width=device-width, maximum-scale=1">
-	<script type="text/javascript" src="js/style.js"></script>
-	<script type="text/javascript" src="js/marque.js"></script>
-</head>
-<body onload="indicatePage()">
-	<div id="wrapper" >
-		<header class="grid-row"><!-- The site header content resides here -->
-			<div class="zero-right-left-padding">
-				<h2 id="site-head" class="grid-df" style="margin-top: 0">HAMZAT Habibllahi</h2>
-				<nav class="grid-df"><!-- Navigation buttons and site map resides here -->
-					<ul id="nav"  class="flex-container center">
-						<a href="index.html" id="me">
-							<li class="first iconsize">Home</li>
-						</a>
-						<a href="portfolio.html">
-							<li class="second iconsize">Portfolio</li>
-						</a>
-						<a href="download/HAMZAT_HABIBLLAHI_ADEWALE_CV.pdf">
-							<li class="third iconsize">CV</li>
-						</a>
-						<a href="contacts.html">
-							<li class="forth iconsize">Contact</li>
-						</a>
-						
-					</ul>
-					<img class="iconsiz" id="menu" src="image/menu.png" alt="menu" onclick="showMenu();" />
-					<ul id="dropdown" class="flex-container col">
-						<a href="index.html">
-							<li class="first">Home</li>
-						</a>
-						<a href="portfolio.html">
-							<li class="second">Portfolio</li>
-						</a>
-						<a href="download/HAMZAT_HABIBLLAHI_ADEWALE_CV.pdf">
-							<li class="third">Download CV</li>
-						</a>
-						<a href="contacts.html">
-							<li class="forth">Contact</li>
-						</a>
-						
-					</ul>
-				</nav>
-			</div>
-			<div id="my-picture" class="auto-magin">
-				<img src="image/profile-picture.jpg" alt="my profile picture"/>
-			</div>
-		</header>
-		<article id="parent" class="span"><!-- the page content resides here for every page -->
-				<h2>Career Objective </h2>
-				<p>
-To become a successful electrical engineer with tons of professional experience in solar renewable energy design, development and management. 
-With add on professional skills in development of full-stack native android mobile application, cross-platform desktop application 
-and IoT based embedded solutions applicable in renewable energy sector for control, management and remote monitoring. 
-				</p>
-		</article>
-		<div class="grid-row">
-			<article class="grid-xs grid-sm grid-md grid-lg">
-					<h2>ABOUT</h2>
-					<p>
-Currently, I work as Utilities Manager at <a class="codetrik" href="https://www.rubitecsolar.com">Rubitec Utilities</a>. When am off duties,
-I love to freelance on REST microservices development, native Android application development, desktop application development and embedded development. 
-I have my first degree in Electrical and Electronics Engineering(EEE).
-For relaxation, I love watching movies and playing video games. 
+      <!-- Secondary Nav: Mobile Phone -->
+      <nav class="secondary-nav">
+        <p id="nav-times">&#10005;</p>
+        <!-- Image -->
+        <section class="nav-image">
+          <img
+            src="image/profile-picture.jpg"
+            alt="Hamzat Habibllahi Adewale"
+          />
+        </section>
+        <ul class="nav-body-sec">
+          <li class="nav-item-sec active-link-sec">
+            <a class="nav-link-sec" href="index.html">
+              <i class="fa fa-home"></i> Home
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="portfolio.html">
+              <i class="fa fa-briefcase"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="resume.html">
+              <i class="fa fa-file"></i> Resume
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="contact.html">
+              <i class="fa fa-phone"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="overlay"></div>
+        <article class="banner-text">
+          <h2 class="banner-subtext">Hello, I'm</h2>
+          <h1 class="banner-name">Hamzat Habibllahi Adewale</h1>
+          <p class="banner-tagline">- I build amazing things -</p>
+        </article>
+      </section>
 
-					</p>
-						<h2>SKILLS</h2>
-						<p>
-							<b>Electrical</b></br>
-							<ol>			
-								<li>Mini grid management</li>
-								<li>Electrical installation (conduit and surface)</li>
-								<li>Solar hybrid installation</li>
-							</ol>
+      <!-- Career Objective -->
+      <section class="career-panel">
+        <span class="fa fa-quote-left"></span>
+        <p class="career-obj">
+          To become a successful electrical engineer with tons of professional
+          experience in solar renewable energy design, development and
+          management. With add on professional skills in development of
+          full-stack native android mobile application, cross-platform desktop
+          application and IoT based embedded solutions applicable in renewable
+          energy sector for control, management and remote monitoring.
+        </p>
+      </section>
 
-							<b>Electronics</b></br>
-							<ol>
-								<li>Design and development of analog, digital and embedded system as custom control solutions</li>
-								<li>Design of printed circuit boards using proteus software</li>
-								<li>Programming of AVR ATmega series microcontroller and Intel Galileo Single Board Computer (SBC) using the Arduino open source embedded platform</li>
-								<li>Home automation</li>
-							</ol>
-							<b>Software Development</b></br> 
-							Programming language: Java, kotlin, C++
-							<ol>
-								<li>Development of REST web backend services using Java programming language and Spring framework, Hibernate, MySQL database on Tomcat Server</li>
-								<li>Development of cross-platform rich client, rich internet desktop application using Java programming language and JavaFX framework</li> 
-								<li>Currently learning development of native Android mobile development using the Kotlin and Java programming language with the Android Standard Development Kit</li> 
-								<li>Currently advancing on development of  Internet of Things (IoT) based control solutions for home automation using C++ programming language</li>  
-							</ol>
+      <!-- About Me -->
+      <section class="about-panel">
+        <!-- Image -->
+        <section class="about-image-panel">
+          <img
+            src="image/profile-picture.jpg"
+            alt="Hamzat Habibllahi Adewale"
+          />
+        </section>
 
-						</p>
-						<h2>WORK EXPERIENCE</h2>
-						<p>
+        <section class="about-me-text">
+          <p class="section-title">About <strong>Me</strong></p>
+          <!-- First Paragraph -->
+          <p class="pg-one">
+            Electrical/Software engineer with expertise in solar renewable
+            energy design, development and management.
+          </p>
+          <!-- Second paragraph -->
+          <p class="pg-two">
+            I love to freelance on REST microservices development, native
+            Android application development, desktop application development and
+            embedded development. I have my first degree in Electrical and
+            Electronics Engineering(EEE). For relaxation, I love watching movies
+            and playing video games.
+          </p>
+        </section>
+      </section>
 
-							Solar hybrid development and installation. <br/>	
-							Electrical installation. <br/>	
-							REST micro-services development.</br>
-							Desktop application development.</br>
-							Native Android application development.</br>
-							Embedded development.</br>			
-					</p>
+      <!-- What I do -->
+      <section class="wid-panel">
+        <p class="section-title">What I <strong>do</strong></p>
 
-			</article>
+        <div class="wid-body">
+          <!-- Renewable Energy -->
+          <article class="wid-item">
+            <span class="wid-icon"> <i class="fa fa-globe"></i> </span>
+            <h4 class="wid-title">Renewable Energy</h4>
+            <p class="wid-text">
+              Development and installation of solar-powered power generating
+              system of various capacities. Experienced in mini-grid management
+              and the use of Kobo tools in data collection and analysis for
+              viable proposed mini-grid site. Good in reading and interpreting
+              of design diagram with sound electrical installation knowledge
+              that helps in manifestation of the design. I am team-oriented and
+              I have a high drive for learning more
+            </p>
+          </article>
 
-			<article class="grid-xs grid-sm grid-md grid-lg">
-					<h2>WORK PORTFOLIO</h2>
-					<p>
-						Here are some of projects have worked on. My work portfolio features desktop projects, web projects and embedded projects.
-						<a href="portfolio.html"/><br/>click here to see<a>
-					</p>
-			</article>
-		</div>
-		<footer id="body-footer"><!--The body footer stays here-->
-				<div id="contact-details" class="contact-icon grid-row">
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop tel " href="tel:+2348142408496">Call</a>
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop email " href="mailto:habibllahi3@gmail.com">private mail</a>
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop fb " href="">faceboook</a>
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop twitter" href="https://twitter.com/AIfiiCODE">personal twitter page</a>
-				</div>
+          <!-- Software Development -->
+          <article class="wid-item">
+            <span class="wid-icon"><i class="fa fa-laptop"></i></span>
+            <h4 class="wid-title">Software Development</h4>
+            <p class="wid-text">
+              What makes me standout is my progressive and increasing software
+              development knowledge and experience. I find it interesting
+              creating custom software solutions that assist organization I work
+              with, solving in-house challenges by creating enterprise-grade
+              desktop, Android mobile application with excellent user experience
+              and robust back-end services as well as scalable REST
+              microservices. This inline with my career objective put me in good
+              position to create solutions that assist in monitoring, control
+              and management of solar power generating systems
+            </p>
+          </article>
 
-			<div id="footer">
-				<span id="unreal"> &copy;</span>Hamzat Habibllahi Adewale
-			</div>
+          <!-- Embedded Systems -->
+          <article class="wid-item">
+            <span class="wid-icon"> <i class="fa fa-cogs"></i> </span>
+            <h4 class="wid-title">Embedded Systems</h4>
+            <p class="wid-text">
+              This is another skill I am passionate about. More interesting to
+              me is the Internet of Things (IoT) development using the Single
+              Board Computer (SBC). Programming SBC to use various sensors in
+              monitoring a system and sending data's from such system to a
+              remote server. My fun and easy-to-use environment is the Arduino,
+              however this knowledge can easily be transfered to other
+              environments. Inline with my career objective, this skill put me
+              in good position to develop custom solutions for monitoring,
+              control and management of solar power generation systems.
+            </p>
+          </article>
+        </div>
+      </section>
 
-		</footer>
-	</div>
-</body>
+      <!-- Skill Set -->
+      <section class="skill-panel">
+        <p class="section-title">Skill <strong>Set</strong></p>
+        <div class="skill-body">
+          <!-- Java -->
+          <div class="skill-item">
+            <p class="skill-name">JAVA</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 70%;"></div>
+            </div>
+          </div>
+          <!-- C++ -->
+          <div class="skill-item">
+            <p class="skill-name">C++</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 60%;"></div>
+            </div>
+          </div>
+          <!-- Kotlin -->
+          <div class="skill-item">
+            <p class="skill-name">Kotlin</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 50%;"></div>
+            </div>
+          </div>
+          <!-- FXML -->
+          <div class="skill-item">
+            <p class="skill-name">FXML</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 70%;"></div>
+            </div>
+          </div>
+          <!-- MYSQL -->
+          <div class="skill-item">
+            <p class="skill-name">MYSQL</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 50%;"></div>
+            </div>
+          </div>
+          <!-- Solar Installation -->
+          <div class="skill-item">
+            <p class="skill-name">Solar Installation</p>
+            <div class="skill-progress">
+              <div class="progess-bar" style="width: 90%;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Featured Portfolio -->
+      <section class="portfolio-panel">
+        <p class="section-title">Featured <strong>Portfolio</strong></p>
+        <!-- Projects Container -->
+        <section class="portfolio-body">
+          <!-- Project 1: Software -->
+          <div class="portfolio-item">
+            <div class="portfolio-image">
+              <img
+                src="image/relay_app.jpg"
+                alt="RelayFX Desktop Application"
+              />
+            </div>
+            <div class="portfolio-desc">
+              <h4 class="project-title">RelayFX Desktop Application</h4>
+              <p>
+                This application back-end is written in Java and its front-end
+                is written in FXML using the JavaFX technology. It is a control
+                solution designed to control target device remotely via a
+                bluetooth or zigbee serial transreceiver module connected to the
+                operational desktop computer via USB.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 2: Solar Installation -->
+          <div class="portfolio-item">
+            <div class="portfolio-image">
+              <img src="image/2-unit-solar.jpg" alt="Solar Installation" />
+            </div>
+            <div class="portfolio-desc">
+              <h4 class="project-title">Solar Installation</h4>
+              <p>
+                1KVA solar installation done at Sanyo, Ibadan. It consist of 2
+                units 150watt sun-powered polycrystalline solar panel, 1
+                Techfine 1KVA inverter, 40Amp MPPT charge controller, 2 units
+                12V 100Amphr Gel batteries. The system can still comfortably
+                support one additional panel.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 3: Embedded -->
+          <div class="portfolio-item">
+            <div class="portfolio-image">
+              <img
+                src="image/arduino-logo.jpeg"
+                alt="Arduino code for automatic water pump system"
+              />
+            </div>
+            <div class="portfolio-desc">
+              <h4 class="project-title">
+                Arduino code for automatic water pump system
+              </h4>
+              <p>
+                This code is written in C++. It is an embedded program designed
+                to automatically monitor liquid level in a tank and then smartly
+                decides if to off the running pump or start the pump. The
+                program is compactible with AVR microcontrollers.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio CTA -->
+        <p class="portfolio-cta"><a href="portfolio.html">View more</a></p>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <!-- Copyright -->
+        <p>
+          Copyright &copy; <span id="copyright-year"></span>
+          <a href="index.html">Hamzat Habibllahi Adewale</a>
+        </p>
+        <!-- Social Media -->
+        <aside class="social-media">
+          <a
+            href="mailto:habibllahi3@gmail.com"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-envelope"></span>
+          </a>
+          <a
+            href="https://github.com/habibllahi/"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-github"></span>
+          </a>
+          <a
+            href="https://twitter.com/AIfiiCODE"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-twitter"></span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hamzat-habibllahi-8b9542110"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-linkedin"></span>
+          </a>
+        </aside>
+      </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/index.js"></script>
+  </body>
 </html>

@@ -1,127 +1,471 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/default.css" media="screen and (min-width:290px)">
-	<link rel="stylesheet" type="text/css" href="css/small.css">
-	<link rel="stylesheet" type="text/css" href="css/medium.css">
-	<link rel="stylesheet" type="text/css" href="css/large.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Electrical Engineer with tons of professional experience in solar renewable energy design, development and management"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/favicon.svg" />
+    <link rel="shortcut icon" type="image/png" href="image/favicon.svg" />
+    <link rel="apple-touch-icon" href="image/favicon.svg" />
+    <title>Hamzat Habibllahi Adewale - Electrical Engineer | Portfolio</title>
+    <!-- Stylesheets -->
+    <!-- Font Awesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Portfolio Stylesheet -->
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <section class="nav-brand">
+        <h1><a href="index.html">H. A. Hamzat</a></h1>
+        <p id="nav-hamburger">&#9776;</p>
+      </section>
+      <!-- Primary Nav: Large Screen -->
+      <nav id="primary-nav">
+        <ul class="nav-body-pry">
+          <li class="nav-item-pry">
+            <a class="nav-link-pry" href="index.html">Home</a>
+          </li>
+          <li class="nav-item-pry active-link-pry">
+            <a class="nav-link-pry" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item-pry">
+            <a class="nav-link-pry" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item-pry">
+            <a class="nav-link-pry" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-	<meta name="viewport" content="width=device-width, maximum-scale=1">
-	<script type="text/javascript" src="js/style.js">
+      <!-- Secondary Nav: Mobile Phone -->
+      <nav class="secondary-nav">
+        <p id="nav-times">&#10005;</p>
+        <!-- Image -->
+        <section class="nav-image">
+          <img
+            src="image/profile-picture.jpg"
+            alt="Hamzat Habibllahi Adewale"
+          />
+        </section>
+        <ul class="nav-body-sec">
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="index.html">
+              <i class="fa fa-home"></i> Home
+            </a>
+          </li>
+          <li class="nav-item-sec active-link-sec">
+            <a class="nav-link-sec" href="portfolio.html">
+              <i class="fa fa-briefcase"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="resume.html">
+              <i class="fa fa-file"></i> Resume
+            </a>
+          </li>
+          <li class="nav-item-sec">
+            <a class="nav-link-sec" href="contact.html">
+              <i class="fa fa-phone"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="project-body">
+        <!-- 2 units Solar Installation, Sanyo -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/2-unit-solar.jpg"
+              alt="2 units Solar Installation"
+            />
+          </div>
 
-	</script>
-	<script type="text/javascript" src="js/marque.js"></script>
-</head>
-<body onload="indicatePage()">
-	<div id="wrapper">
-		<header class="grid-row"><!-- The site header content resides here -->
-			<div class="zero-right-left-padding">
-				<h2 id="site-head" class="grid-df" style="margin-top: 0">HAMZAT Habibllahi</h2>
-				<nav class="grid-df"><!-- Navigation buttons and site map resides here -->
-					<ul id="nav"  class="flex-container center">
-						<a href="index.html">
-							<li class="first iconsize">Home</li>
-						</a>
-						<a href="portfolio.html" id="me">
-							<li class="second iconsize">Portfolio</li>
-						</a>
-						<a href="download/HAMZAT_HABIBLLAHI_ADEWALE_CV.pdf">
-							<li class="third iconsize">CV</li>
-						</a>
-						<a href="contacts.html">
-							<li class="forth iconsize">Contact</li>
-						</a>
-				
-					</ul>
-					<img class="iconsiz" id="menu" src="image/menu.png" alt="menu" onclick="showMenu();" />
-					<ul id="dropdown" class="flex-container col">
-						<a href="index.html">
-							<li class="first">Home</li>
-						</a>
-						<a href="portfolio.html">
-							<li class="second">Portfolio</li>
-						</a>
-						<a href="download/HAMZAT_HABIBLLAHI_ADEWALE_CV.pdf">
-							<li class="third">Download CV</li>
-						</a>
-						<a href="contacts.html">
-							<li class="forth">Contact</li>
-						</a>
-					
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<article class="span work-section-style">
-				<h2>RelayFX Desktop Application</h2>
-				<p>
-					<img class="portfolio-image" src="image/Relay App.JPG"/>
-					This application back-end is written in Java and its front-end is written in FXML using the JavaFX technology. It is a control solution designed to control target device remotely via a bluetooth or zigbee serial transreceiver module connected to the operational desktop computer via USB.
-					The target device shall have an embedded board as an intermediary between its transreceiver and the device control switch board. If your embedded board is an arduino, You can as well download the arduino code for this project <a href="#arduinoRelayFX-code">here</a>. You are free to download this code, study and edit to suit you. The operational PC must run JRE 1.8 or above.
-				</p>
-				<a href="download/RelayFX.zip" class="work-download">Download</a>
-		</article>
-		<article class="span work-section-style">
-				<h2>Arduino Code for RelayFX App </h2>
-				<p>
-					<img class="portfolio-image" src="image/Arduino.JPG"/>
-					This code is written in C++. It is an embedded code for arduino board, The code is designed to receive predefined instruction from the RelayFX App via the operational PC transreceiever and also to log feedback to the RelayFX App via the target device transreceiver. You are free to download this code, study and edit to suit you.
-				</p>
-				<a id="arduinoRelayFX-code" href="download/RelayFX App arduino code.zip" class="work-download">Download</a>
-		</article>
-		<article class="span work-section-style">
-				<h2>Fingerprint Attendance App </h2>
-				<p>
-					<img class="portfolio-image" src="image/Fingerprint.JPG"/>
-					This application is written in Java using the swing technology. It is developed to basically solve proxy attendance taking in any institution. The application is designed to use only digital personna USB fingerprint hardware. The application uses JDBC to interract with localhost MySQL database to store enrolled candidates data. You as an administrator can enroll two fingers for each candidate, such candidate can use either of the finger to take his/her attendance for the day. It tabulate the attendance for that day  upon query. You are free to download this code, study and edit to suit you. The user name and password is <b>gateway</b>.
-				</p>
-				<a id="arduinoRelayFX-code" href="download/Fingerprint Attendance App.zip" class="work-download">Download</a>
-		</article>
-		<article class="span work-section-style">
-				<h2>Arduino code for automatic water pump system</h2>
-				<p>
-					<img class="portfolio-image" src="image/Arduino.JPG"/>
-					This code is written in C++. It is an embedded program designed to automatically monitor liquid level in a tank and then smartly decides if to off the running pump or start the pump. The program is compactible with AVR microcontrollers. The microcontroller running this program controls the hardware that controls the pump. Real time monitoring result is displayed on Liquid crystal Display (LCD). You are free to download this code, study and edit to suit you.
-				</p>
-				<a id="arduinoRelayFX-code" href="download/Automatic water pump.zip" class="work-download">Download</a>
-		</article>
-		<article class="span work-section-style">
-				<h2>Arduino code for college bell system</h2>
-				<p>
-					<img class="portfolio-image" src="image/Arduino.JPG"/>
-					This code is written in C++. It is an embedded program designed to automatically monitor the calender of a typical school using the Real Time Clock (RTC) module DS1307, it automatically sounds an alarm to signify the end of every class period. It is smart enough to recognize saturday and sunday as weekend, hence does not sound alarm for weekends and friday alarm is quite different as per the schooling system in south-west region of Nigeria. Real time monitoring result is displayed on Liquid crystal Display (LCD). The program is compactible with AVR microcontrollers. The microcontroller running this program controls the hardware that controls the alarm sound system. You are free to download this code, study and edit to suit you.
-				</p>
-				<a id="arduinoRelayFX-code" href="download/college bell.zip" class="work-download">Download</a>
-		</article>
-		<article class="span work-section-style">
-				<h2>Arduino code for garden irrigation system</h2>
-				<p>
-					<img class="portfolio-image" src="image/Arduino.JPG"/>
-					This code is written in C++. It is a simple embedded program designed to automatically monitor the moisture level of garden soil and smartly decide if to water the garden or not.
-					Monitoring result is displayed on Liquid crystal Display (LCD). The program is compactible with AVR microcontrollers. The microcontroller running this program controls the hardware that controls the garden pump system. You are free to download this code, study and edit to suit you.
-				</p>
-				<a id="arduinoRelayFX-code" href="download/Garden Irrigation.zip" class="work-download">Download</a>
-		</article>
-		<article class="span work-section-style">
-				<h2>Home automation using IR remote</h2>
-				<p>
-					<img class="portfolio-image" src="image/Arduino.JPG"/>
-					This code is written in C++. It is an embedded program designed to control the switching of the home appliances by the home user using Infrared remote control. The program is compactible with AVR microcontrollers. The microcontroller running this program receives signals from the IR receiver connected to it, analyse the signal and use the result to decide which appliance it's to ON or OFF, it simply ignore any signal that is not predefined in the program. You are free to download this code, study and edit to suit you.
-				</p>
-		<a id="arduinoRelayFX-code" href="download/Home automation using IR remote.zip" class="work-download">Download</a>
-		</article>
-		<footer id="body-footer"><!--The body footer stays here-->
-				<div id="contact-details" class="contact-icon grid-row">
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop tel " href="tel:+2348142408496">Call</a>
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop email " href="mailto:habibllahi3@gmail.com">private mail</a>
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop fb " href="">faceboook</a>
-					<a class="grid-xs grid-sm grid-3-md grid-3-lg prop twitter" href="https://twitter.com/AIfiiCODE">personal twitter page</a>
-				</div>
-				<div id="footer">
-					<span id="unreal"> &copy;</span>Hamzat Habibllahi Adewale
-				</div>
-		</footer>
-	</div>
-</body>
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">2 units Solar Installation</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              1KVA solar installation done at Sanyo, Ibadan. It consist of 2
+              units 150watt sun-powered polycrystalline solar panel, 1 Techfine
+              1KVA inverter, 40Amp MPPT charge controller, 2 units 12V 100Amphr
+              Gel batteries. The system can still comfortably support one
+              additional panel.
+            </p>
+          </div>
+        </section>
+
+        <!-- 4 units Solar Installation, Abeokuta -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/4-unit-solar.jpg"
+              alt="4 units Solar Installation"
+            />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">4 units Solar Installation</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              3.5KVA solar installation done at Abeokuta. It consist of 4 units
+              500watt sun-powered monocrystalline solar panel, 1 MPPT 80A charge
+              controller, 4 units 12v/200Amphr Gel batteries, 3.5/48v Mikrotek
+              inverter.
+            </p>
+          </div>
+        </section>
+
+        <!-- Solar Mini Grid -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img src="image/minigrid.jpg" alt="Solar Mini Grid" />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">Solar Mini Grid</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              Management of 85KWp solar mini-grid owned by Rubitec Nigeria
+              Limited and located at Gbamugbamu village, Ijebu-Ode. I serve as
+              the Utility Manager running the grid 24/7, ensuring utilization of
+              generarted energy to create more revenue at minimal running cost.
+              I coordinate the sales of power as well. My responsibility include
+              solving problem as fast as possible to minimize down time. In the
+              course of serving the company, I begin to develop custom mini-grid
+              management software aimed at solving record persistance into
+              remote database and making this record available for better
+              decisions making. The software also automatically send email
+              notifications. I also introduced a software solution that allow
+              mass shutdown and restoration of customers' meters, a
+              functionality not readily available on the platform used by the
+              company.
+            </p>
+          </div>
+        </section>
+
+        <!-- RelayFX Desktop Application -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img src="image/relay_app.jpg" alt="RelayFX Desktop Application" />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">RelayFX Desktop Application</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This application back-end is written in Java and its front-end is
+              written in FXML using the JavaFX technology. It is a control
+              solution designed to control target device remotely via a
+              bluetooth or zigbee serial transreceiver module connected to the
+              operational desktop computer via USB. The target device shall have
+              an embedded board as an intermediary between its transreceiver and
+              the device control switch board. If your embedded board is an
+              arduino, You can as well download the arduino code for this
+              project here. You are free to download this code, study and edit
+              to suit you. The operational PC must run JRE 1.8 or above.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/relay_fx.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+
+        <!-- Arduino Code for RelayFX App -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/arduino-logo.jpeg"
+              alt="Arduino Code for RelayFX App"
+            />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">Arduino Code for RelayFX App</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This code is written in C++. It is an embedded code for arduino
+              board, The code is designed to receive predefined instruction from
+              the RelayFX App via the operational PC transreceiever and also to
+              log feedback to the RelayFX App via the target device
+              transreceiver. You are free to download this code, study and edit
+              to suit you.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/relay_fx_app_arduino_code.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+
+        <!-- Fingerprint Attendance App -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img src="image/fingerprint.jpg" alt="Fingerprint Attendance App" />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">Fingerprint Attendance App</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This application is written in Java using the swing technology. It
+              is developed to basically solve proxy attendance taking in any
+              institution. The application is designed to use only digital
+              personna USB fingerprint hardware. The application uses JDBC to
+              interract with localhost MySQL database to store enrolled
+              candidates data. You as an administrator can enroll two fingers
+              for each candidate, such candidate can use either of the finger to
+              take his/her attendance for the day. It tabulate the attendance
+              for that day upon query. You are free to download this code, study
+              and edit to suit you. The default username and password is
+              <strong>gateway</strong>.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/fingerprint_attendance_app.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+
+        <!-- Arduino code for automatic water pump system -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/arduino-logo.jpeg"
+              alt="Arduino code for automatic water pump system"
+            />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">
+              Arduino code for automatic water pump system
+            </h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This code is written in C++. It is an embedded program designed to
+              automatically monitor liquid level in a tank and then smartly
+              decides if to off the running pump or start the pump. The program
+              is compactible with AVR microcontrollers. The microcontroller
+              running this program controls the hardware that controls the pump.
+              Real time monitoring result is displayed on Liquid crystal Display
+              (LCD). You are free to download this code, study and edit to suit
+              you.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/automatic_water_pump.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+
+        <!-- Arduino code for college bell system -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/arduino-logo.jpeg"
+              alt="Arduino code for college bell system"
+            />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">Arduino code for college bell system</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This code is written in C++. It is an embedded program designed to
+              automatically monitor the calender of a typical school using the
+              Real Time Clock (RTC) module DS1307, it automatically sounds an
+              alarm to signify the end of every class period. It is smart enough
+              to recognize saturday and sunday as weekend, hence does not sound
+              alarm for weekends and friday alarm is quite different as per the
+              schooling system in south-west region of Nigeria. Real time
+              monitoring result is displayed on Liquid crystal Display (LCD).
+              The program is compactible with AVR microcontrollers. The
+              microcontroller running this program controls the hardware that
+              controls the alarm sound system. You are free to download this
+              code, study and edit to suit you.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/college_bell.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+
+        <!-- Arduino code for garden irrigation system -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/arduino-logo.jpeg"
+              alt="Arduino code for garden irrigation system"
+            />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">
+              Arduino code for garden irrigation system
+            </h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This code is written in C++. It is a simple embedded program
+              designed to automatically monitor the moisture level of garden
+              soil and smartly decide if to water the garden or not. Monitoring
+              result is displayed on Liquid Crystal Display (LCD). The program
+              is compactible with AVR microcontrollers. The microcontroller
+              running this program controls the hardware that controls the
+              garden pump system. You are free to download this code, study and
+              edit to suit you.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/garden_irrigation.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+
+        <!-- Home automation using IR remote -->
+        <section class="project-item">
+          <!-- Project Image -->
+          <div class="project-image">
+            <img
+              src="image/arduino-logo.jpeg"
+              alt="Home automation using IR remote"
+            />
+          </div>
+
+          <!-- Project Panel -->
+          <div class="project-panel">
+            <!-- Project Title -->
+            <h4 class="project-title">Home automation using IR remote</h4>
+
+            <!-- Project Description -->
+            <p class="project-desc">
+              This code is written in C++. It is an embedded program designed to
+              control the switching of the home appliances by the home user
+              using Infrared remote control. The program is compactible with AVR
+              microcontrollers. The microcontroller running this program
+              receives signals from the IR receiver connected to it, analyse the
+              signal and use the result to decide which appliance it's to ON or
+              OFF, it simply ignore any signal that is not predefined in the
+              program. You are free to download this code, study and edit to
+              suit you.
+            </p>
+
+            <!-- Project Download Link -->
+            <a href="download/home_automation_using_ir_remote.zip" download>
+              Download
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <!-- Copyright -->
+        <p>
+          Copyright &copy; <span id="copyright-year"></span>
+          <a href="index.html">Hamzat Habibllahi Adewale</a>
+        </p>
+        <!-- Social Media -->
+        <aside class="social-media">
+          <a
+            href="mailto:habibllahi3@gmail.com"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-envelope"></span>
+          </a>
+          <a
+            href="https://github.com/habibllahi/"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-github"></span>
+          </a>
+          <a
+            href="https://twitter.com/AIfiiCODE"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-twitter"></span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hamzat-habibllahi-8b9542110"
+            class="social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="fa fa-linkedin"></span>
+          </a>
+        </aside>
+      </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
