@@ -316,9 +316,8 @@ footer {
     flex-basis: 30%;
   }
   .wid-item {
-    flex-basis: 50%;
+    flex-basis: 45%;
     margin: 2rem auto;
-    align-self: stretch;
   }
   .skill-body {
     width: 60%;
