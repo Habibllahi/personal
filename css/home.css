@@ -312,11 +312,12 @@ footer {
     width: 100%;
   }
 
-  .wid-item,
   .portfolio-item {
     flex-basis: 30%;
   }
-
+  .wid-item {
+    flex-basis: 50%;
+  }
   .skill-body {
     width: 60%;
   }
