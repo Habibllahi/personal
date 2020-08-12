@@ -311,14 +311,16 @@ footer {
     margin-right: 5rem;
     width: 100%;
   }
-
-  .portfolio-item {
-    flex-basis: 30%;
-  }
+  
   .wid-item {
     flex-basis: 45%;
     margin: 2rem auto;
+    align-self: stretch;
   }
+  .portfolio-item {
+    flex-basis: 30%;
+  }
+  
   .skill-body {
     width: 60%;
   }
