@@ -308,8 +308,8 @@ footer {
     align-items: center;
   }
   .about-image-panel {
-    margin-right: 5rem;
-    width: 100%;
+    margin: 0 auto;
+    width: 40%;
   }
   
   .wid-item {
