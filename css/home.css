@@ -238,7 +238,7 @@ footer {
 }
 
 /* Phablets */
-@media only screen and (min-width: 641px) and (max-width: 767px) {
+@media only screen and (min-width: 641px){
   .career-panel,
   .about-panel,
   .wid-panel,
@@ -247,6 +247,11 @@ footer {
   footer {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+  .about-image-panel {
+    margin-right: 5rem;
+    height: 20%;
+    width: 20%;
   }
 }
 
@@ -272,12 +277,7 @@ footer {
   .portfolio-panel {
     padding: 3rem;
   }
-
-  .about-image-panel {
-    height: 20%;
-    width: 20%;
-  }
-
+  
   .wid-body,
   .portfolio-body {
     display: flex;
@@ -308,8 +308,8 @@ footer {
     align-items: center;
   }
   .about-image-panel {
-    margin: 0 auto;
-    width: 40%;
+    height: 20%;
+    width: 20%;
   }
   
   .wid-item {
