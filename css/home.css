@@ -295,6 +295,12 @@ footer {
     width: 80%;
     margin: auto;
   }
+  
+ .about-image-panel {
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+  }
 }
 
 /* Desktop/Laptop */
@@ -323,5 +329,11 @@ footer {
   
   .skill-body {
     width: 60%;
+  }
+  
+  .about-image-panel {
+    margin-right: 2rem;
+    height: 50%;
+    width: 50%;
   }
 }
