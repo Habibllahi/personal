@@ -249,9 +249,9 @@ footer {
     margin-right: 3rem;
   }
   .about-image-panel {
-    margin-right: 5rem;
-    height: 30%;
-    width: 30%;
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
   }
 }
 
