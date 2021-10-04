@@ -33,6 +33,7 @@ body {
   background: var(--dark);
   color: var(--light);
   position: relative;
+  text-align: left;
 }
 
 /* Anchor Tags */
