@@ -33,6 +33,17 @@ body {
   background: var(--dark);
   color: var(--light);
   position: relative;
+  
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div{
   text-align: left !important;
 }
 
