@@ -13,7 +13,7 @@ main {
 .banner {
   position: relative;
   height: 100%;
-  background: url("../image/banner.jpg");
+  background: url("../image/banner-small.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -277,6 +277,9 @@ footer {
   .nav-body-pry{
     color: #343a40;
   }
+  .banner{
+    background-image: url("../image/banner-medium.jpg");
+  }
   
   .banner-subtext {
     font-size: 2rem;
@@ -331,7 +334,9 @@ footer {
   .career-panel {
     width: 40%;
   }
-
+  .banner{
+    background-image: url("../image/banner-large.jpg");
+  }
   .about-panel {
     display: flex;
     align-items: center;
