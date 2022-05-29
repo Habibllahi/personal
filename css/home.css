@@ -96,9 +96,7 @@ WHAT I DO
 .wid-item {
   display: block;
   margin: 1rem auto;
-  flex-basis: 40%;
-  width: 20%;
-  height: 10%;
+  flex-basis: 100%;
 }
 .wid-item-image{
   background-size: 50px 30px;
@@ -263,6 +261,9 @@ footer {
     height: 40%;
     width: 40%;
   }
+  .wid-item{
+    flex-basis: 50%;
+  }
 }
 
 /* Tablets */
@@ -313,6 +314,10 @@ footer {
     height: 40%;
     width: 40%;
   }
+
+  .wid-item{
+    flex-basis: 33.3%;
+  }
 }
 
 /* Desktop/Laptop */
@@ -341,5 +346,9 @@ footer {
     margin-right: 2rem;
     height: 260px;
     width: 260px;
+  }
+
+  .wid-item{
+    flex-basis: 25%;
   }
 }
