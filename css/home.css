@@ -95,10 +95,13 @@ WHAT I DO
 
 .wid-item {
   display: block;
-  margin: 2rem 20px;
-  flex-basis: 10%;
+  margin: 1rem auto;
+  flex-basis: 40%;
   width: 20%;
   height: 10%;
+}
+.wid-item-image{
+  background-size: 50px 30px;
 }
 .wid-icon {
   display: block;
