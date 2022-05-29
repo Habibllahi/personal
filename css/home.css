@@ -274,9 +274,6 @@ footer {
 
 /* Tablets */
 @media only screen and (min-width: 769px) {
-  .nav-body-pry{
-    color: #343a40;
-  }
   .banner{
     background-image: url("../image/banner-medium.jpg");
   }
