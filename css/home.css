@@ -94,9 +94,11 @@ WHAT I DO
 }
 
 .wid-item {
-  padding: 1rem;
-  background: var(--light-dark);
-  margin: 2rem auto;
+  display: block;
+  margin: 2rem 20px;
+  flex-basis: 10%;
+  width: 20%;
+  height: fit-content;
 }
 .wid-icon {
   display: block;
@@ -237,6 +239,11 @@ footer {
   margin-top: 3rem;
 }
 
+.wid-body{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 /* Phablets */
 @media only screen and (min-width: 641px){
   .career-panel,
@@ -282,19 +289,17 @@ footer {
     padding: 3rem;
   }
   
-  .wid-body,
   .portfolio-body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  .wid-item,
+
   .portfolio-item {
     flex-basis: 45%;
     margin: 2rem auto;
     align-self: stretch;
   }
-
   .skill-body {
     width: 80%;
     margin: auto;
@@ -320,12 +325,6 @@ footer {
   .about-image-panel {
     height: 20%;
     width: 20%;
-  }
-  
-  .wid-item {
-    flex-basis: 45%;
-    margin: 2rem auto;
-    align-self: stretch;
   }
   .portfolio-item {
     flex-basis: 30%;
