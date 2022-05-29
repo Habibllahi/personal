@@ -245,6 +245,12 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
+@media screen and (min-width: 300px) {
+  .wid-item{
+    flex-basis: 50%;
+  }
+}
 /* Phablets */
 @media only screen and (min-width: 641px){
   .career-panel,
